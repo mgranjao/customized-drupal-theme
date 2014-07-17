@@ -1,0 +1,294 @@
+
+@font-face {
+    font-family: 'Avenir';
+    src: url('../fonts/avenir-lt-65-medium.eot');
+    src: url('../fonts/avenir-lt-65-medium.eot') format('embedded-opentype'),
+         url('../fonts/avenir-lt-65-medium.woff') format('woff'),
+         url('../fonts/avenir-lt-65-medium.ttf') format('truetype'),
+         url('../fonts/avenir-lt-65-medium.svg#AvenirLT65MediumRegular') format('svg');
+}
+@font-face {
+    font-family: 'Avenir Black';
+    src: url('../fonts/avenir-lt-95-black.eot');
+    src: url('../fonts/avenir-lt-95-black.eot') format('embedded-opentype'),
+         url('../fonts/avenir-lt-95-black.woff') format('woff'),
+         url('../fonts/avenir-lt-95-black.ttf') format('truetype'),
+         url('../fonts/avenir-lt-95-black.svg#AvenirLT65MediumBold') format('svg');
+}
+
+
+body,h4{
+	font-family: 'Avenir';
+}
+
+
+body{
+    color: #767777;
+    margin: 0;
+}
+
+.title,.side{color: #727374}
+
+.title{font-size: 20px;}
+.subtitle_1{font-size: 17px;}
+.subtitle_2{font-size: 13px;}
+
+.head {
+    background: url("../img/head_border.png") repeat-x scroll 0 93px rgba(0, 0, 0, 0);
+    height: 81px;
+    padding-top: 15px;
+}
+.center {
+    background: url("../img/centro_bg.png") repeat-x scroll 0 75px rgba(0, 0, 0, 0);
+    height: 473px;
+    width: 100%;
+    text-align: center;
+}
+.center_acerca {
+    background: url("../img/centro_bg_1.png") repeat-x scroll 0 -35px rgba(0, 0, 0, 0);
+    height: 90px;
+    text-align: center;
+    width: 100%;
+}
+
+
+section.center_acerca div.container h4 {
+    bottom: -42px;
+    position: relative;
+    text-align: left;
+    width: 600px;
+}
+.page_img {
+    background: url("../img/acerca_de.png") no-repeat scroll 0 0 rgba(0, 0, 0, 0);
+    float: right;
+    height: 269px;
+    position: relative;
+    top: -151px;
+    width: 234px;
+}
+
+.side {
+    padding-top: 52px;
+    text-align: justify;
+    width: 752px;
+}
+
+
+
+.side_productos {
+    padding-bottom: 40px;
+    padding-top: 52px;
+    text-align: justify;
+    width: 845px;
+    float: left;
+}
+
+.indice {
+    background: none repeat scroll 0 0 #F9F9F9;
+    border-left: 2px solid #51C8EB;
+    float: right;
+    margin-top: -123px;
+    width: 248px;
+}
+
+.indice ul ul {
+    margin-left: -13px;
+    padding-left: 0;
+}
+.indice > .indice_title {
+    display: block;
+    padding-left: 12px;
+    padding-top: 13px;
+}
+.indice  .actual{
+    background: #ecf3f8;
+}
+
+
+aside.indice ul ul li {
+    margin-left: 0;
+    padding-left: 18px;
+}
+
+.indice > ul {
+    margin-left: 0;
+    padding-left: 14px;
+}
+aside.indice > ul > li > a{font-weight: bold;}
+
+
+.indice li {
+    line-height: 28px;
+    list-style: none outside none;
+}
+
+.side_productos > p {
+    margin: 19px auto auto;
+    width: 90%;
+}
+
+.side_productos > .w100 {
+    margin: 27px 0;
+    width: 100%;
+}
+.grey {
+    background: none repeat scroll 0 0 #F9F9F9;
+    padding: 12px;
+}
+
+.grey_sky.w100 > ul {
+    margin-left: -24px;
+}
+
+.grey_sky{background: none repeat scroll 0 0 #F9F9F9;
+            border-left: 2px solid #51C8EB;padding: 11px;
+            }
+.center_imgs {
+    padding-top: 34px;
+}
+	.center_imgs img {
+	    float: left;
+	    margin-left: 20px;
+	    margin-right: 20px;
+	}
+.container {
+    margin: auto;
+    width: 1097px;
+}
+.logo {
+    background: url("../img/logo.png") no-repeat scroll 0 0 rgba(0, 0, 0, 0);
+    height: 106px;
+    width: 206px;
+}
+
+.logo_link {
+    float: left;
+}
+.menu {
+    float: right;
+    width: 800px;
+}
+.menu a, .menu a:visited {
+    color: #767777;
+    font-size: 16px;
+    text-decoration: none;
+}
+.activo {
+    background: none repeat scroll 0 0 #4C94CF;margin-right: -5px;
+}
+.activo a:visited,.activo a:link{color: white;}
+.menu > li {
+    border-left: 1px solid #EBECEC;
+    display: inline-table;
+    padding: 11px 23px;
+}
+	.sub-menu {
+	    background: none repeat scroll 0 0 #FFFFFF;
+	    border: 1px solid #EBECEC;
+	    margin-left: -24px;
+	    margin-top: 11px;
+	    padding-bottom: 15px;
+	    padding-right: 20px;
+	    padding-top: 16px;
+	    position: absolute;
+	}
+
+	.sub-menu li {
+	    border-bottom: 1px solid #EBECEC;
+	    display: list-item;
+	    list-style-image: url("../img/submenu_item.png");
+	    margin-bottom: 8px;
+	    margin-left: -6px;
+	    padding-bottom: 9px;
+	}
+
+		.menu-item.menu-item-has-children:hover {
+		    border-bottom: 1px solid #FFFFFF;
+		    border-top: 1px solid #EBECEC;
+		    margin-right: -5px;
+		    margin-top: -1px;
+		    padding-right: 28px;
+		}
+h2,h3,h4,.indice_title,.title_2{color:#4c94cf;}
+h2,h3.subtitle_1,.subtitle_2,.title_2{font-family:'Avenir Black';}
+h2{font-size:30px ; }
+h3{font-size:24px ;}
+h4{font-size:36px ;}
+.indice_title, .title_2{font-size: 16px;}
+
+.grey_sky > a{font-weight: bold;}
+.grey_sky li{list-style: none;}
+
+.centrado{text-align: center;}
+
+.home_text{margin-top: 15px;}
+.undeline{text-decoration: underline;}
+
+.lower_info {
+    float: left;
+    margin: 5px 16px;
+    width: 333px;
+    text-align: justify;
+    font-size: 14px;
+}
+.lower_info > h3 {
+    border-bottom: 1px solid #92BF61;
+    padding-bottom: 4px;
+    
+}
+
+.side_productos ul li a
+
+.fw_link,.menu_footer li a:visited,.menu_footer li a:link,.indice a,.indice a:visited,.grey_sky  a,.grey_sky  a:visited,.side_productos ul li a,.side_productos ul li a:visited{text-decoration: none;color: #5b5b5a;}
+
+.menu_footer li.activo a{text-decoration: underline;margin-right: 5px;}
+
+.fw_link > p {
+    background: none repeat scroll 0 0 #EEEDED;
+    color: #797F7F;
+    padding: 8px 0;
+    text-align: center;
+}
+
+.email {
+    background: url("../img/field_bg.png") repeat scroll 0 0 rgba(0, 0, 0, 0);
+    border: 1px solid #EEEDED;
+    height: 31px;
+    margin-left: 12px;
+    width: 273px;
+}
+
+.lower {
+    height: 385px;
+}
+.lower,.lower_acerca{  background: url("../img/head_border.png") repeat-x scroll 0 0 rgba(0, 0, 0, 0);}
+.footer>.container{
+	border-top: 1px solid #EEEDED;
+}
+.lower_acerca{min-height: 500px;}
+
+.footer {
+    clear: both;
+    height: 90px;
+}
+.menu_footer .activo{
+	background: white;
+
+}
+.menu_footer li {
+    float: left;
+    list-style: disc outside none;
+    margin-right: 21px;
+}
+
+.sponsor {
+    float: right;
+    height: 63px;
+}
+
+.sponsor > span {
+	color: #aaaba9;
+    left: -16px;
+    position: relative;
+    top: -15px;
+}
